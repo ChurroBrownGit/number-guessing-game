@@ -1,4 +1,3 @@
-# Joel Hadley
 # 02 08 2024
 # (Originally Made for my 3rd Period Computer Science)
 
