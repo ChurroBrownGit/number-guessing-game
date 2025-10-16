@@ -1,6 +1,4 @@
-# 02 08 2024
-# (Originally Made for my 3rd Period Computer Science)
-
+# Made 02 08 2024
 # Random Number Guessing Game!
 game = True
 
@@ -11,7 +9,7 @@ while game == True:
     # Change number range here ^^^. 
         # - Only works with integers, not floats (whole numbers, not decimal numbers)
         # - ALSO 1 MUST BE MINIMUM
-        # - Be sure to change the input() text on line 18 to "Guess the Number Between 1-[number]" instead of 1-100!
+        # - Be sure to change the input() text on line 16 to "Guess the Number Between 1-[number]" instead of 1-100!
     guesses = 5 # Set number of Guesses
     user_guess = -1 # Subtracts 1 from total guesses every time you guess
     while(user_guess != number and guesses > 0): # This loop repeats until either the guess is correct, or the player runs out of guesses.
@@ -36,4 +34,3 @@ while game == True:
         if (answer == "y"):
             game = False
             game = True
-
